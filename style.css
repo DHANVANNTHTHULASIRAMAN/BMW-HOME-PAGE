@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Roboto", sans-serif !important;
+    background-color: black;
+}
+section{
+    width: 100%;
+   
+}
+.navbar{
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.445),transparent);
+
+}
+.navbar li a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin: 0px 10px;
+
+}
+.navbar li a i{
+    font-size: 1.3rem;
+    margin: 0px 15px;
+    color: white;
+}
+.navbar ul{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand img{
+    padding: 5px;
+}
+.navbar-nav .nav-link {
+    position: relative;
+    color: white !important;
+    margin-bottom: 5px !important;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0%;
+    height: 5px;
+    color: white !important;
+    background-color: #0066b1 !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100% !important;
+}
+.hang{
+    position: fixed;
+    right: 63px;
+    bottom: 203px;
+    height: 55px !important;
+    z-index: 100;
+}
+/**hero 1 style**/
+#hero{
+    height: 100vh;
+    background-image: url('./assets/herobmw.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.hero-text {
+    color: white;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-text .model{
+    font-size:10rem;
+    margin: -4rem 0px -2rem 0px;
+}
+.hero-text .the{
+    font-size: 1.5rem;
+    font-weight: 300;
+} button{
+   padding: 15px 45px;
+}
+/**hero 2**/
+#hero2-white{
+    background-color: white;
+    padding-top: 25px !important;
+}
+#hero2{
+    height: 100vh;
+    background-image: url('./assets/bmw2_desktop.webp');
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+#shopping-section{
+    min-height: 50vh;
+    background-color: white;
+    color: black;
+    margin: 20px 0;
+}
+.shopping img{
+    height: 70px;
+    width:auto;
+}
+.shoping-mini-title{
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.shoping-big-title{
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+
+}
+.shopping-content{
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+}
+.s-button{
+    padding: 14px 24px !important;
+}
+#shopping-section{
+    margin-bottom: 50px;
+}
+#hero3{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0,0.3)),url(./assets/hero-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+.hero3-title{
+    font-size: 2.5rem;
+}
+.hero3-button{
+    padding: 14px 80px !important;
+}
+#products{
+    margin-top: 50px;
+}
+
+.products-small-title{
+    padding-top: 50px;
+}
+.products-big-title{
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+.products-para{
+    font-size: 1.1rem;
+}
+.btn-products{
+    padding: 14px 45px !important;
+    margin-top: 8px;
+}
+.products-small-title2{
+    padding-top: 80px;
+}
+.products-para2{
+    font-size: 1.2rem;
+}
+.line{
+    margin-top: 40px;
+}
+.line a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+/**footer**/
+footer{
+    cursor: pointer;
+    background-color:#f6f6f6;
+    color:#f0f0f0;
+    gap: 1em;
+    font-weight: 600;
+   
+}
+.footer-title{
+    font-size: 14px;
+}
+
+.text-reset{
+    font-size:18px;
+    font-weight: 600;
+    color: #f0f0f0;
+
+}
+.text-reset:hover{
+    color: #000000 !important;
+}
+.footer-icons{
+    font-size: 20px;
+}
+.footer2{
+    cursor: pointer;
+    color: blue;
+}
+.footer-2-title{
+    font-size: 23px;
+    color: #000000;
+}
+.footer2-links{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer2-links a{
+    padding-left: 15px;
+    color: #000000;
+}
+.footer2-links a:hover{
+    color: blue;
+}
